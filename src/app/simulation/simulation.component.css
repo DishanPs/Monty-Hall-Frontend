@@ -1,0 +1,63 @@
+.monty-hall-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-number {
+  padding: 8px;
+  font-size: 16px;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.input-checkbox {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.checkbox-label {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.results-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.results-container p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
