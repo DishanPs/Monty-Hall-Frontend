@@ -28,8 +28,27 @@
 
   <div *ngIf="result" class="results-container">
     <h2>Results</h2>
-    <p><strong>Total Games:</strong> {{ result.totalGames }}</p>
-    <p><strong>Wins When Changed:</strong> {{ result.winsWhenChanged }}</p>
-    <p><strong>Wins When Stayed:</strong> {{ result.winsWhenStayed }}</p>
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Total Games</td>
+          <td>{{ result.totalGames }}</td>
+        </tr>
+        <tr>
+          <td>Wins When Changed</td>
+          <td>{{ result.winsWhenChanged }}</td>
+        </tr>
+        <tr>
+          <td>Wins When Stayed</td>
+          <td>{{ result.winsWhenStayed }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
